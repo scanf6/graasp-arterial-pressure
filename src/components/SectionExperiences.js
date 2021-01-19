@@ -27,7 +27,7 @@ Section du nerf pneumogastrique
           </div>
           <div>
             <Button className="sectionSwitchBtn" variant="contained" color="primary" onClick={dispatchSectionNerfPneumogastriqueSympatique}><SectionIcon fontSize="small" /></Button>
-Section du nerf pneumogastrique et sympatique
+Section du nerf sympatique
           </div>
         </div>
       </div>
