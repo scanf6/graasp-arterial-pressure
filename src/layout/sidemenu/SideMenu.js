@@ -10,6 +10,9 @@ import IconButton from '@material-ui/core/IconButton';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import Description from '../../components/Description';
+import SectionExperiences from '../../components/SectionExperiences';
+import StimulationExperiences from '../../components/StimulationExperiences';
+import SuppressionExperiences from '../../components/SuppressionExperiences';
 import Styles from './Styles';
 import { toggleSideMenu } from '../../actions';
 
@@ -49,6 +52,11 @@ class SideMenu extends Component {
           </div>
           <Divider />
           <Description t={t} />
+          <div className="experiences">
+            <SectionExperiences />
+            <StimulationExperiences />
+            <SuppressionExperiences />
+          </div>
         </Drawer>
       </Fragment>
     );
