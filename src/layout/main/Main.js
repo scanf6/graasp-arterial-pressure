@@ -70,7 +70,7 @@ class Main extends Component {
         <div className="main-container">
 
           <div className="heartDisplay">
-            {this.heartConditionalDisplay((!normalInnervation && nerfSympatiqueSection && nerfPneumogastriqueSection), <Heart heartScenario="sectionSympa" />,
+            {this.heartConditionalDisplay((!normalInnervation && nerfSympatiqueSection), <Heart heartScenario="sectionSympa" />,
               this.heartConditionalDisplay((!normalInnervation && nerfPneumogastriqueSection), <Heart heartScenario="sectionPneumo" />,
                 this.heartConditionalDisplay((!normalInnervation && nerfPneumogastriqueStimul), <Heart heartScenario="stimulPneumo" />,
                   this.heartConditionalDisplay((!normalInnervation && nerfSympatiqueStimul), <Heart heartScenario="stimulSympa" />,

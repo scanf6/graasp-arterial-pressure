@@ -3,7 +3,7 @@ import Lottie from 'react-lottie';
 import PropTypes from 'prop-types';
 import normalHeartAnimationData from '../resources/normalHeart.json';
 import sectionPneumoAnimationData from '../resources/newData/1-section nerfs pneumogastrique.json';
-import sectionSympaAnimationData from '../resources/newData/2-section nerfs pneumogastrique et sympatique.json';
+import sectionSympaAnimationData from '../resources/newData/2-section nerfs sympatique.json';
 import stimulPneumoAnimationData from '../resources/newData/3-stimulation nerf pneumogastrique.json';
 import stimulSympaAnimationData from '../resources/newData/4-stimulation nerf sympatique.json';
 import deleteBulbarAnimationData from '../resources/newData/5-suppression centre bulbaire.json';
