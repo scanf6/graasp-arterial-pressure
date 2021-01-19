@@ -53,9 +53,9 @@ class SideMenu extends Component {
           <Divider />
           <Description t={t} />
           <div className="experiences">
-            <SectionExperiences />
-            <StimulationExperiences />
-            <SuppressionExperiences />
+            <SectionExperiences t={t} />
+            <StimulationExperiences t={t} />
+            <SuppressionExperiences t={t} />
           </div>
         </Drawer>
       </Fragment>

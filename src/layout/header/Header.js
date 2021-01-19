@@ -40,7 +40,7 @@ class Header extends Component {
       >
         <Toolbar disableGutters style={{ backgroundColor: themeColor }}>
           <Typography variant="h4" color="inherit" noWrap className={classes.title}>
-            {t('Pression Artérielle')}
+            {t('Arterial Pressure')}
           </Typography>
           <IconButton
             color="inherit"

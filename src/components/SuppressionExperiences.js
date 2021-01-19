@@ -13,19 +13,19 @@ class SuppressionExperiences extends Component {
   }
 
   render() {
-    const { dispatchDeleteBulbar, dispatchDeleteMedular } = this.props;
+    const { dispatchDeleteBulbar, dispatchDeleteMedular, t } = this.props;
 
     return (
       <div id="suppressionExperience" className="experiencesContainer">
-        <div className="title">Experiences de suppression</div>
+        <div className="title">{t('Suppression Experiences')}</div>
         <div className="content">
           <div style={{ marginBottom: '1rem' }}>
             <Button className="sectionSwitchBtn" variant="contained" color="primary" onClick={dispatchDeleteBulbar}><DeleteIcon /></Button>
-Suppression du centre nerveux bulbaire
+            {t('Suppression of the bulbar nerve center')}
           </div>
           <div>
             <Button className="sectionSwitchBtn" variant="contained" color="primary" onClick={dispatchDeleteMedular}><DeleteIcon /></Button>
-Suppression du centre nerveux medulaire
+            {t('Removal of the medullary nerve center')}
           </div>
         </div>
       </div>
@@ -41,6 +41,7 @@ const mapDispatchToProps = {
 SuppressionExperiences.propTypes = {
   dispatchDeleteBulbar: PropTypes.func.isRequired,
   dispatchDeleteMedular: PropTypes.func.isRequired,
+  t: PropTypes.func.isRequired,
 };
 
 export default connect(null, mapDispatchToProps)(SuppressionExperiences);

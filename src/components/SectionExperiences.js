@@ -16,18 +16,19 @@ class SectionExperiences extends Component {
     const {
       dispatchSectionNerfPneumogastrique,
       dispatchSectionNerfPneumogastriqueSympatique,
+      t,
     } = this.props;
     return (
       <div id="sectionExperience" className="experiencesContainer">
-        <div className="title">Experiences de section</div>
+        <div className="title">{t('Section Experiences')}</div>
         <div className="content">
           <div style={{ marginBottom: '1rem' }}>
             <Button className="sectionSwitchBtn" variant="contained" color="primary" onClick={dispatchSectionNerfPneumogastrique}><SectionIcon fontSize="small" /></Button>
-Section du nerf pneumogastrique
+            {t('Section of the pneumogastric nerve')}
           </div>
           <div>
             <Button className="sectionSwitchBtn" variant="contained" color="primary" onClick={dispatchSectionNerfPneumogastriqueSympatique}><SectionIcon fontSize="small" /></Button>
-Section du nerf sympatique
+            {t('Sympathetic nerve section')}
           </div>
         </div>
       </div>
@@ -43,6 +44,7 @@ const mapDispatchToProps = {
 SectionExperiences.propTypes = {
   dispatchSectionNerfPneumogastrique: PropTypes.func.isRequired,
   dispatchSectionNerfPneumogastriqueSympatique: PropTypes.func.isRequired,
+  t: PropTypes.func.isRequired,
 };
 
 export default connect(null, mapDispatchToProps)(SectionExperiences);

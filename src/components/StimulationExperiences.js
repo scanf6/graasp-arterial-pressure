@@ -13,19 +13,19 @@ class StimulationExperiences extends Component {
   }
 
   render() {
-    const { dispatchStimulNerfPneumogastrique, dispatchStimulNerfSympatique } = this.props;
+    const { dispatchStimulNerfPneumogastrique, dispatchStimulNerfSympatique, t } = this.props;
 
     return (
       <div id="stimulationExperience" className="experiencesContainer">
-        <div className="title">Experiences de Stimulation</div>
+        <div className="title">{t('Stimulation Experiences')}</div>
         <div className="content">
           <div style={{ marginBottom: '1rem' }}>
             <Button className="sectionSwitchBtn" variant="contained" color="primary" onClick={dispatchStimulNerfPneumogastrique}><StimulIcon fontSize="small" /></Button>
-Stimulation du nerf pneumogastrique
+            {t('Stimulation of the pneumogastric nerve')}
           </div>
           <div>
             <Button className="sectionSwitchBtn" variant="contained" color="primary" onClick={dispatchStimulNerfSympatique}><StimulIcon fontSize="small" /></Button>
-Stimulation du nerf sympatique
+            {t('Stimulation of the sympathetic nerve')}
           </div>
         </div>
       </div>
@@ -41,6 +41,7 @@ const mapDispatchToProps = {
 StimulationExperiences.propTypes = {
   dispatchStimulNerfPneumogastrique: PropTypes.func.isRequired,
   dispatchStimulNerfSympatique: PropTypes.func.isRequired,
+  t: PropTypes.func.isRequired,
 };
 
 export default connect(null, mapDispatchToProps)(StimulationExperiences);
