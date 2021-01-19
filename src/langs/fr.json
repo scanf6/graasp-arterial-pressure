@@ -6,7 +6,7 @@
       "Ceci est la vue de l'enseignant. Passez à la vue des étudiants en cliquant sur l’URL ci-dessous.",
     "Welcome to the Graasp App Starter Kit": "Bienvenue dans le kit de démarrage de l'application Graasp",
     "Arterial Pressure": "Pression Artérielle",
-    "The lab allows the learner to identify the different organs (spinal cord, nerves and carotid sinus) involved in the nervous mechanism of heart activity. The influence of the section of the different nerves and their stimulation on the functioning of the heart.": "Le laboratoire permet à l'apprenant d'identifier les différents organes (moelle épinière, nerfs et sinus carotidien) impliqués dans le mécanisme nerveux de l'activité cardiaque. L'influence de la section des différents nerfs et leur stimulation sur le fonctionnement du cœur.",
+    "The lab allows the learner to identify the different organs (spinal cord, nerves and carotid sinus) involved in the nervous mechanism of heart activity. The influence of the section of the different nerves and their stimulation on the functioning of the heart.": "Le laboratoire permet à l'apprenant d'identifier les différents organes (moelle épinière, nerfs et sinus carotidien) impliqués dans le mécanisme nerveux de l'activité cardiaque ainsi que l'influence des différents nerfs sur le fonctionnement du cœur.",
     "Observe": "Observer",
     "Test": "Tester",
     "Coming Soon!": "Bientôt disponible!",
@@ -23,6 +23,6 @@
     "Suppression Experiences": "Expériences de Suppression",
     "Heart normal innervation": "Innervation normale du coeur",
     "Suppression of the bulbar nerve center": "Suppression du centre nerveux bulbaire",
-    "Removal of the medullary nerve center": "Suppression du centre nerveux medulaire"
+    "Removal of the medullary nerve center": "Suppression du centre nerveux médulaire"
   }
 }
