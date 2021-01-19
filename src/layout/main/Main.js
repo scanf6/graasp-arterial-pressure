@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import classNames from 'classnames';
 import { withStyles } from '@material-ui/core/styles';
+import { withTranslation } from 'react-i18next';
 import MenuIcon from '@material-ui/icons/Menu';
 import Fab from '@material-ui/core/Fab';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
@@ -32,6 +33,7 @@ class Main extends Component {
       themeColor,
       dispatchSetNormalInnvervation,
       normalInnervation,
+      t,
       sections: {
         nerfPneumogastrique: nerfPneumogastriqueSection,
         nerfSympatique: nerfSympatiqueSection,
@@ -81,7 +83,7 @@ class Main extends Component {
 
             <div className="normalInervationContainer">
               <button type="button" onClick={dispatchSetNormalInnvervation} className="innervationBtn" />
-              <span>Innervation normale du coeur</span>
+              <span>{t('Heart normal innervation')}</span>
             </div>
           </div>
 
@@ -101,6 +103,7 @@ Main.propTypes = {
   normalInnervation: PropTypes.bool.isRequired,
   showSideMenu: PropTypes.bool.isRequired,
   dispatchToggleSideMenu: PropTypes.func.isRequired,
+  t: PropTypes.func.isRequired,
   dispatchSetNormalInnvervation: PropTypes.func.isRequired,
 };
 
@@ -120,5 +123,6 @@ const mapDispatchToProps = {
 };
 
 const connectedComponent = connect(mapStateToProps, mapDispatchToProps)(Main);
+const StyledComponent = withStyles(styles, { withTheme: true })(connectedComponent);
 
-export default withStyles(styles, { withTheme: true })(connectedComponent);
+export default withTranslation()(StyledComponent);
