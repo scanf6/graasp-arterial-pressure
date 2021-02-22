@@ -1,6 +1,7 @@
 # Graasp Lab: Arterial Pressure
 
-This lab aims to teach the heart reaction to different stimulus
+The lab allows the learner to identify the different organs (spinal cord, nerves and carotid sinus) involved in the nervous mechanism of heart activity.
+The influence of the section of the different nerves and their stimulation on the functioning of the heart.
 
 This Lab was created using [Graasp App Starter React](https://github.com/react-epfl/graasp-app-starter-react)
 
