@@ -21,11 +21,11 @@ class SuppressionExperiences extends Component {
         <div className="content">
           <div style={{ marginBottom: '1rem' }}>
             <Button className="sectionSwitchBtn" variant="contained" color="primary" onClick={dispatchDeleteBulbar}><DeleteIcon /></Button>
-            {t('Suppression of the bulbar nerve center')}
+            {t('Bulbar nerve center removal')}
           </div>
           <div>
             <Button className="sectionSwitchBtn" variant="contained" color="primary" onClick={dispatchDeleteMedular}><DeleteIcon /></Button>
-            {t('Removal of the medullary nerve center')}
+            {t('Medullary nerve center removal')}
           </div>
         </div>
       </div>

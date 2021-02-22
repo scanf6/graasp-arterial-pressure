@@ -21,11 +21,11 @@ class StimulationExperiences extends Component {
         <div className="content">
           <div style={{ marginBottom: '1rem' }}>
             <Button className="sectionSwitchBtn" variant="contained" color="primary" onClick={dispatchStimulNerfPneumogastrique}><StimulIcon fontSize="small" /></Button>
-            {t('Stimulation of the pneumogastric nerve')}
+            {t('Pneumogastric nerve stimulation')}
           </div>
           <div>
             <Button className="sectionSwitchBtn" variant="contained" color="primary" onClick={dispatchStimulNerfSympatique}><StimulIcon fontSize="small" /></Button>
-            {t('Stimulation of the sympathetic nerve')}
+            {t('Sympathetic nerve stimulation')}
           </div>
         </div>
       </div>

@@ -1,10 +1,10 @@
-# Graasp Lab Default Theme
+# Graasp Lab: Arterial Pressure
 
-This is the default theme for all Labs repository. Initially configured with Redux, language and theme settings with the controls panel.
+This lab aims to teach the heart reaction to different stimulus
 
 This Lab was created using [Graasp App Starter React](https://github.com/react-epfl/graasp-app-starter-react)
 
-![image](https://github.com/graasp/graasp-lab-default-theme/blob/develop/public/preview.png)
+![image](https://github.com/graasp/graasp-lab-arterial-pressure/blob/master/public/preview.png)
 
 ## Quick Start
 

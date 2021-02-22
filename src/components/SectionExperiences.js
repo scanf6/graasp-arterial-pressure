@@ -24,7 +24,7 @@ class SectionExperiences extends Component {
         <div className="content">
           <div style={{ marginBottom: '1rem' }}>
             <Button className="sectionSwitchBtn" variant="contained" color="primary" onClick={dispatchSectionNerfPneumogastrique}><SectionIcon fontSize="small" /></Button>
-            {t('Section of the pneumogastric nerve')}
+            {t('Pneumogastric nerve section')}
           </div>
           <div>
             <Button className="sectionSwitchBtn" variant="contained" color="primary" onClick={dispatchSectionNerfPneumogastriqueSympatique}><SectionIcon fontSize="small" /></Button>
